@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mobile App</title>
+    <title>Fly DXC</title>
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -14,36 +14,118 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container">
-      <div class="heading-section my-auto">
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <div class="col-sm- logo">
-            <p>
-              <i class="fab fa-fly"></i>
-            </p>
+    <div>
+      <!-- Navigation Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FLY DXC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Employee Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Booking Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Baggage Details</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <div id="intro">
+      <div class="header">
+        <h1>Welcome to FLY DXC</h1>
+        <h5>DXC's Internal Website for DXC related Business Flights.</h5>
+      </div>
+    </div>
+
+    <div id="section2">
+      <div class="center">
+        <h1>
+          <span class="">Booking Details</span>
+        </h1>
+      </div>
+
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="email">Employee Id</label>
+            <input type="text" class="form-control form-control-lg" id="enter-employee-id" aria-describedby="emailHelp" placeholder="Employee ID (E.g. 123456)">
           </div>
-          <div class="col-sm-">
-            <p class="brand-name">
-              Fly <br>DXC
-            </p>
+          <div class="form-group">
+            <label for="airlines">Airlines</label>
+            <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Select Airlines">
           </div>
-        </div>
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <img class="img-fluid" src="https://assets1.dxc.technology/newsroom/images/dxc_logo_hz_blk_rgb_300.png">
-        </div>
-        <div class="d-flex flex-row justify-content-center align-items-center button-pad">
-          <a href="/main">
-          <button type="button" class="btn btn-outline-dark">
-            Login
-          </button>
-          </a>
-        </div>
-        <br>
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <p>Not registered yet? Sign Up <a href="/register1">here</a></p>
+          <div class="form-group">
+            <label for="bookingReferenceNumber">Booking Reference Number</label>
+            <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Booking Reference Number (E.g. AWERW53453DFGD)">
+          </div>
+          <br>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-warning btn-lg">Check Flight</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <div id="section3">
+      <div class="center">
+        <h1>
+          <span class="">Baggage Details</span>
+        </h1>
+      </div>
+      <br>
+      <br>
+      <div>
+        <div class="row">
+          <div class="col-sm text-center carryon">
+            <a href="#">
+              <h1>Carry On Baggage</h1>
+            </a>
+          </div>
+          <div class="col-sm text-center carryin">
+            <a href="#">
+              <h1>Checkin Baggage</h1>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <div id="section4">
+      <div class="row">
+        <div class="col-sm text-center carryon">
+          <br>
+          <ul class="nobull">
+            <li>Home</li>
+            <li>Employee Detail</li>
+            <li>Booking Details</li>
+            <li>Baggage Details</li>
+          </ul>
+        </div>
+        <div class="col-sm text-center carryin">
+          <br>
+          <ul class="nobull">
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- For Bootstrap JS Required Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

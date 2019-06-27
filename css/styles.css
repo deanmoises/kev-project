@@ -6,37 +6,70 @@ body {
 
 /* For Landing Page */
 body {
-  margin: 0;
+  margin-bottom: 0;
   font-family: "Roboto";
+  color: black;
 }
 
-.heading-section {
-  padding-top: 150px;
+/* landing */
+#intro {
+  height: 350px;
+  width: 100%;
+  background-color: #F3F45E;
+  color: black;
 }
 
-.logo {
-  font-size: 5em;
-  padding-right:10px;
-  font-color: yellow !important;
+.header {
+  padding: 170px 250px;
 }
 
-.brand-name {
-  border-left: 3px solid black;
-  font-weight: 900;
-  font-size: 2em;
-  padding: 10px;
+
+.center {
+  padding-left: 39%;
+  padding-top: 50px;
 }
 
-.img-fluid {
-  max-width: 50% !important;
-  padding-top: 40px !important;
+#section2 {
+  height: 500px;
+  width: 100%;
+  background-color: white;
 }
 
-.button-pad {
-  padding-top: 160px;
-  color: black !important;
+#section3 {
+  height: 270px;
+  width: 100%;
+  background-color: #F3F45E;
 }
 
-.dropdown-divider {
-  border-top:2px solid gray !important;
+.bg-dark {
+  background-color: #252F37 !important;
+}
+
+.carryon {
+  text-style-type: ;
+}
+
+.carryin {
+
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#section4 {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+}
+
+.nobull {
+  list-style-type: none;
 }
