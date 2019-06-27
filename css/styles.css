@@ -1,0 +1,42 @@
+/* for testing
+body {
+  background-color: black;
+}
+*/
+
+/* For Landing Page */
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.heading-section {
+  padding-top: 150px;
+}
+
+.logo {
+  font-size: 5em;
+  padding-right:10px;
+  font-color: yellow !important;
+}
+
+.brand-name {
+  border-left: 3px solid black;
+  font-weight: 900;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.img-fluid {
+  max-width: 50% !important;
+  padding-top: 40px !important;
+}
+
+.button-pad {
+  padding-top: 160px;
+  color: black !important;
+}
+
+.dropdown-divider {
+  border-top:2px solid gray !important;
+}
